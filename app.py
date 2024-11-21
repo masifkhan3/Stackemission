@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+source /home/adminuser/venv/bin/activate
+pip show matplotlib
+
 
 class EmissionsCalculator:
     def __init__(self):
